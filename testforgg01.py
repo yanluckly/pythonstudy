@@ -12,6 +12,8 @@ def is_leap_year(year):
         return False
 
 # 测试
+print(is_leap_year(2021))  # True
+print(is_leap_year(2028))  # True
 print(is_leap_year(2020))  # True
 print(is_leap_year(1900))  # False
 print(is_leap_year(2000))  # True
