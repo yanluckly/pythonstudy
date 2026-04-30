@@ -1,4 +1,31 @@
 {
   "mcpServers": {
+    "abap-adt-mars_s4d": {
+      "command": "C:\\Amazon Q\\vsp-windows-amd64.exe",
+      "args": [],
+      "env": {
+        "SAP_URL": "https://10.173.68.20:44300",
+        "SAP_USER": "00144774",
+        "SAP_CLIENT": "101",
+        "SAP_LANGUAGE": "EN",
+        "SAP_INSECURE": "true",
+        "SAP_PASSWORD": "1234qwerASDF",
+        "SAP_ENABLE_TRANSPORTS": "true",
+        "SAP_ALLOW_TRANSPORTABLE_EDITS": "true",
+        "SAP_ALLOWED_PACKAGES": "Z*",
+        "SAP_MODE": "expert"
+      },
+      "timeout": 600000,
+      "disabled": false,
+      "disabledTools": [
+        "DebuggerListen"
+      ]
+    },
+    "mcp-sap-docs": {
+      "url": "http://mcp-sap-docs.marianzeis.de/mcp",
+      "headers": {},
+      "timeout": 60000,
+      "disabled": false
+    }
   }
 }
